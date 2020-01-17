@@ -1,0 +1,34 @@
+{
+	"name": "test",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"main": "package.json",
+	"author": "Joseph Thomas <joseph@good-idea.studio>",
+	"license": "UNLICENSED",
+	"scripts": {
+		"start": "sanity start",
+		"graphql-deploy": "sanity graphql deploy --playground",
+		"test": "sanity check"
+	},
+	"keywords": [
+		"sanity"
+	],
+	"dependencies": {
+		"@sane-shopify/sanity-plugin": "^0.6.8",
+		"@sanity/base": "^0.147.8",
+		"@sanity/components": "^0.147.9",
+		"@sanity/core": "^0.147.9",
+		"@sanity/default-layout": "^0.147.9",
+		"@sanity/default-login": "^0.147.0",
+		"@sanity/desk-tool": "^0.147.9",
+		"@sanity/vision": "^0.147.9",
+		"graphql": "^14.5.8",
+		"prop-types": "^15.7",
+		"react": "^16.12",
+		"react-dom": "^16.12"
+	},
+	"devDependencies": {
+		"@sanity/cli": "^0.147.8"
+	}
+}
